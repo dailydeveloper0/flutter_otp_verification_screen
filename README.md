@@ -4,13 +4,17 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is an OTP verification page which have a dynamic OTP fields generator for any OTP length. It implements all necessary controls for an OTP verification page.
 
-A few resources to get you started if this is your first Flutter project:
+| Empty OTP Fields | OTP Entry In Progress | OTP Fill Done |
+|------------------|-----------------------|---------------|
+|![OTP 1](./screenshots/otp1.png) | ![OTP 2](./screenshots/otp2.png) | ![OTP 3](./screenshots/otp3.png) |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
+- Elegenat 6-digit OTP input field
+- Auto-focus and cursor movement between digits
+- Disabled submit button until the full OTP is entered
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Built With
+- **Flutter**
+- **Dart**
